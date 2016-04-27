@@ -1,4 +1,4 @@
 // Reverse a string
 // Input: anything
-// Output: gnihtyma
+// Output: gnihtyna
 +[->,]+[+.<]
