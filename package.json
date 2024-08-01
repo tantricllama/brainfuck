@@ -1,0 +1,77 @@
+{
+  "name": "brainfuck",
+  "version": "1.0.0",
+  "description": "Brainfuck Interpreter =====================",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js --progress",
+    "start": "webpack serve --open --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tantricllama/brainfuck.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tantricllama/brainfuck/issues"
+  },
+  "homepage": "https://github.com/tantricllama/brainfuck#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-common-types": "6.1.1",
+    "@fortawesome/fontawesome-free": "6.1.1",
+    "@fortawesome/fontawesome-svg-core": "6.1.1",
+    "@fortawesome/free-brands-svg-icons": "6.1.1",
+    "@fortawesome/free-regular-svg-icons": "6.1.1",
+    "@fortawesome/free-solid-svg-icons": "6.0.0",
+    "@fortawesome/react-fontawesome": "0.1.17",
+    "@reduxjs/toolkit": "2.0.1",
+    "@svgr/webpack": "6.5.1",
+    "@types/bootstrap": "5.2.10",
+    "@types/history": "4.7.8",
+    "@types/module-alias": "2.0.0",
+    "@types/node": "18.19.0",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "@types/redux-logger": "3.0.12",
+    "@types/uuid": "9.0.8",
+    "bootstrap": "5.3.2",
+    "classnames": "2.3.2",
+    "clean-webpack-plugin": "4.0.0-alpha.0",
+    "css-loader": "0.26.4",
+    "favicons-webpack-plugin": "6.0.0",
+    "file-loader": "6.2.0",
+    "font-awesome-webpack": "0.0.5-beta.2",
+    "fontmin-webpack": "3.0.1",
+    "html-webpack-plugin": "5.3.1",
+    "img-loader": "4.0.0",
+    "module-alias": "2.2.2",
+    "react": "18.2.0",
+    "react-bootstrap": "2.10.0",
+    "react-dom": "18.2.0",
+    "react-fontawesome": "1.7.1",
+    "sass": "1.77.4",
+    "sass-loader": "13.3.3",
+    "style-loader": "0.13.2",
+    "ts-loader": "9.2.3",
+    "ts-node": "10.0.0",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "5.3.3",
+    "url-loader": "4.1.1",
+    "uuid": "9.0.1",
+    "webpack": "5.89.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.15.1",
+    "webpack-merge": "5.8.0"
+  },
+  "_moduleAliases": {
+    "@web": "./src"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "@typescript-eslint/parser": "6.19.0",
+    "eslint": "8.56.0",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0"
+  }
+}
